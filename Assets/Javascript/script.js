@@ -29,7 +29,8 @@ class ChristmasCake {
         this.Prep = Prep;
         this.Difficulty = Difficulty;
         this.Cooktime = Cooktime;
-        console.log((this.Ingredients));
+        
+        console.log((this.ChristmasCake));
 
     }
 
@@ -40,7 +41,7 @@ class ChristmasCake {
 
 }
 // Kan ikke printe "hello from object" uden consten nedenunder
-const Cake = new ChristmasCake('12', '25 mins', 'easy', '2 hours', 'butter', 'brownsugar', 'flour', 'almonds', 'baking powder')
+const Cake = new ChristmasCake('12', '25 mins', 'easy', '2 hours')
 
 
 console.log(Cake);
